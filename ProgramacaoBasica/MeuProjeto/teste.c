@@ -1,9 +1,9 @@
 #include <stdio.h>
-// std = standard (padrão)
+// std = standard (padrï¿½o)
 // io = input/ouput
 
 int main (){
-     //Declaração de variáveis
+     //Declaracao de variaveis
      int num1, num2, soma, multiplicacao;
 
      //Entradas
@@ -17,7 +17,7 @@ int main (){
      soma = num1 + num2;
      multiplicacao = soma * num1;
 
-     //Saída
-     printf("O resultado da multiplicacão é %d", multiplicacao);
+     //Saida
+     printf("O resultado da multiplicacao Ã© %d", multiplicacao);
 
 }
