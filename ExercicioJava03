@@ -1,0 +1,22 @@
+package tnfranco4;
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		//Variaveis
+		float peso_ideal, altura;
+		Scanner teclado = new Scanner(System.in);
+		
+		//Entradas
+		System.out.println("Digite sua altura");
+		altura = teclado.nextFloat();
+		
+        //Processamento
+		peso_ideal = (72.7f * altura) - (58);
+		
+		//Saida
+		System.out.println("Seu peso ideal é " + peso_ideal);
+		
+		teclado.close();
