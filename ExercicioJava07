@@ -1,0 +1,29 @@
+package tnfranco9;
+
+import java.util.Scanner;
+
+public class ExercicioJava07 {
+
+	public static void main(String[] args) {
+		
+    // Variaveis
+		float p,m;
+		String e = "excesso";
+		Scanner teclado = new Scanner(System.in);
+		
+		//Entradas
+		System.out.println("Informe o peso dos peixes: ");
+		p = teclado.nextFloat();
+		
+		//Processamento
+		if (p > 50) {
+			m = (p - 50f) * (4.00f);
+			System.out.printf (" Voce deverá pagar R$ %2f em multas", m);
+		}else {
+			m = 0;
+			e = "0";
+			System.out.println("Multas" + m);
+			System.out.println(" Execesso" + e);
+		}
+    teclado.close();
+    }}
