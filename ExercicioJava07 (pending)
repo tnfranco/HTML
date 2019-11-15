@@ -1,0 +1,30 @@
+package tnfranco10;
+
+import java.util.Scanner;
+
+public class ExercicioJava07 {
+
+	public static void main(String[] args) {
+		// Variaveis
+		int c;
+		float n, e = 0, salario = 0, ValorHora = 10.00f;
+		Scanner teclado = new Scanner(System.in);
+		
+		//Entradas
+		System.out.println("Informe o codigo: ");
+		c = teclado.nextInt();
+		System.out.println("Informe a quantidade de horas trabalhadas: ");
+		n = teclado.nextFloat();
+		
+		//Processamento
+		if (n > 50) {
+			e = (n - 50) * 20.00f;
+			salario = (50 * ValorHora) + e;
+			System.out.printf("Salario total R$ %.2f\n", salario);
+			System.out.printf("Salario excedente R$ %.2f\n");
+		}else { 
+			System.out.printf("Salario total R$ %.2f\n", salario);
+			System.out.printf("Salario excedente R$ %.2f\n");
+		}
+		teclado.close();
+		}}
