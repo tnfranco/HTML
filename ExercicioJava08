@@ -2,7 +2,7 @@ package tnfranco10;
 
 import java.util.Scanner;
 
-public class ExercicioJava07 {
+public class ExercicioJava08 {
 
 	public static void main(String[] args) {
 		// Variaveis
@@ -21,10 +21,10 @@ public class ExercicioJava07 {
 			e = (n - 50) * 20.00f;
 			salario = (50 * ValorHora) + e;
 			System.out.printf("Salario total R$ %.2f\n", salario);
-			System.out.printf("Salario excedente R$ %.2f\n");
+			System.out.printf("Salario excedente R$ %.2f\n", e);
 		}else { 
 			System.out.printf("Salario total R$ %.2f\n", salario);
-			System.out.printf("Salario excedente R$ %.2f\n");
+			System.out.printf("Salario excedente R$ %.2f\n", e);
 		}
 		teclado.close();
 		}}
