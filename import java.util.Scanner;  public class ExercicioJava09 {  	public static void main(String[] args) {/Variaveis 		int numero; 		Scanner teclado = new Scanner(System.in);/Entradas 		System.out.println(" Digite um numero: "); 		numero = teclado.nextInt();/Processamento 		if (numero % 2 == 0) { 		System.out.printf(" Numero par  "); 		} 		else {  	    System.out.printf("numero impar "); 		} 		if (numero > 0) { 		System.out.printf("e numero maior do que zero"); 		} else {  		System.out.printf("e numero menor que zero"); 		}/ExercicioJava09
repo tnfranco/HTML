@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ExercicioJava09 {
+
+	public static void main(String[] args) {
+		// Variaveis
+		int numero;
+		Scanner teclado = new Scanner(System.in);
+		
+		//Entradas
+		System.out.println(" Digite um numero: ");
+		numero = teclado.nextInt();
+	
+		//Processamento
+		if (numero % 2 == 0) {
+		System.out.printf(" Numero par  ");
+		}
+		else { 
+	    System.out.printf("numero impar ");
+		}
+		if (numero > 0) {
+		System.out.printf("e numero maior do que zero");
+		} else { 
+		System.out.printf("e numero menor que zero");
+		}
+		
+		//Saida
+		teclado.close();
+	}}
