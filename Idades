@@ -2,7 +2,7 @@ package tnfranco14;
 
 import java.util.Scanner;
 
-public class ExercicioJava11 {
+public class Idades {
 
 	public static void main(String[] args) {
 		// Variaveis
