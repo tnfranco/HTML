@@ -1,0 +1,33 @@
+package tnfranco17;
+
+import java.util.Scanner;
+
+public class Indice {
+
+	public static void main(String[] args) {
+		
+		// Variaveis
+		float indice;
+		Scanner teclado = new Scanner(System.in);
+		
+		//Entradas
+		System.out.println("Informe um Numero: ");
+		indice = teclado.nextFloat();
+		
+		//Processamento
+		if(indice >= 0.3 && indice < 0.4) {
+			System.out.println(" Atenção: As Industrias do primeiro grupo devem suspender as atividades");
+		} else if( indice >= 0.4 && indice < 0.5) {
+			System.out.println(" Atenção: As Industrias do primeiro e segundo grupo devem suspender as atividades");
+		} else if( indice >= 0.5) {
+			System.out.println(" Atenção: Todas as industrias devem suspernder as atividades");}
+	      else {
+	    	System.out.println(" Niveis aceitaveis "); }
+		
+		teclado.close();
+		
+		
+		
+	}
+
+}
