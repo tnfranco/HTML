@@ -6,21 +6,22 @@ public class Informações {
 
 	public static void main(String[] args) {
 		
-		char nome, senha;
+		String nome, senha;
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println(" Digite o seu nome");
-		nome = teclado.next().charAt(0);
+		nome = teclado.next();
 		
 		System.out.println(" Digite a senha");
-		senha = teclado.next().charAt(0);
+		senha = teclado.next();
 	
-		while(nome == senha) {
+		while(nome.equals(senha)) {
 		System.out.println("Senha nao pode ser igual ao nome!"); 
 		
 		System.out.println("Informe o nome: ");
-		nome = teclado.next().charAt(0);
-		System.out.println("Informe a senha: ");
-		senha = teclado.next().charAt(0);
+		nome = teclado.next();
+		System.out.println("Informe a senha: " );
+		senha = teclado.next();
 	
 	  teclado.close(); }}}
+
