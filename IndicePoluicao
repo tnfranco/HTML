@@ -2,7 +2,7 @@ package tnfranco13;
 
 import java.util.Scanner;
 
-public class ExercicioJava10 {
+public class IndicePoluicao {
 
 	public static void main(String[] args) {
 		// Variaveis
