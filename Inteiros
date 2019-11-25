@@ -1,0 +1,26 @@
+package tnfranco06;
+
+import java.util.Scanner;
+
+public class Inteiros {
+
+	public static void main(String[] args) {
+		
+		int[] vetor = new int[20];
+		int soma = 0;
+		Scanner teclado = new Scanner(System.in);
+		
+		for(int i = 0; i < 20; i++) {
+			System.out.println("Digite um numero: ");
+			vetor[i] = teclado.nextInt();
+		    soma = soma + vetor[i];
+		}
+		    for(int i = 0; i < 1; i++)	{
+		    System.out.printf("A soma é: "  + soma);
+		}
+		
+		teclado.close();
+
+	}
+
+}
