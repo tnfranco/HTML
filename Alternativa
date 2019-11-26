@@ -2,7 +2,7 @@ package tnfranco6;
 
 import java.util.Scanner;
 
-public class ExercicioJava04 {
+public class Alternativa {
 
 	public static void main(String[] args) {
 		// Variaveis
