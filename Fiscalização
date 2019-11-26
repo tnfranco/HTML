@@ -2,7 +2,7 @@ package tnfranco9;
 
 import java.util.Scanner;
 
-public class ExercicioJava07 {
+public class Fiscalização {
 
 	public static void main(String[] args) {
 		
