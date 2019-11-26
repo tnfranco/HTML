@@ -2,7 +2,7 @@ package tnfranco10;
 
 import java.util.Scanner;
 
-public class ExercicioJava08 {
+public class CalculoSalario {
 
 	public static void main(String[] args) {
 		// Variaveis
