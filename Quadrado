@@ -2,7 +2,7 @@ package tnfranco11;
 
 import java.util.Scanner;
 
-public class ExercicioJava09 {
+public class Quadrado {
 
 	public static void main(String[] args) {
 		
