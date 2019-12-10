@@ -1,0 +1,14 @@
+# coding: iso-8859-1 -*-
+
+n = int(input("Informe um numero"))
+
+if n > 0:
+    a = n
+    print("valor positivo")
+else:
+    b = n
+    print("valor negativo")
+print(n)
+    
+    
+    
