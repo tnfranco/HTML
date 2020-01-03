@@ -1,0 +1,23 @@
+<h1> Curriculo Tiago Franco </h1> 
+<hr>
+<p><b>Nome: </b>Tiago Nogueira Franco</p> 
+<p><b>Objetivo: </b>Programador Jr</p> 
+<hr>
+<h2> Qualificações Profissionais</h2> 
+<br>
+<ul>
+<li>Conhecimento básico de Python, Java, C++</li>
+<li>Conhecimento intermediário em Pacotte Office</li>
+</ul>
+<hr>
+<h2> Experiência Profissional</h2>
+<br>
+<ul> 
+    <li><b>Empresa:</b>Emdec</li>
+    <li><b> Atividades:</b> Atendimento ao público, separação e conferência de materiais, inventário, controle de estoque. </li>
+    <li><b>Período: </b> 22/11/2019 até atualmente</li> <br>
+    <li><b> Empresa:</b> PontocomServices</li>
+    <li><b> Atividades:</b> manter controle de estoque, manter sistema de gestão de estoque atualizado,conferir mercadorias,fazer etiquetagem e embalagem de produtos, separação de produtos, lançamento de notas</li>
+    <li><b> Período:</b> 20/01/2018 até 20/11/2018</li>
+</ul>
+<a href="teste.html">ver meu primeiro arquivo criado</a>
