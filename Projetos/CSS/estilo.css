@@ -1,0 +1,97 @@
+body { 
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0px;
+}
+.hero{
+    background-image:url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero nav ul{ 
+    text-align: right;
+    margin: 50px 50px 0 0;
+}
+.hero nav li  {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+.hero nav a {
+    background: rgba(0,0,0,0.4);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+            
+.hero-content p { 
+    background: rgba(0,0,0,0.4);
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+   
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 2px red #333;
+}
+main{ 
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    box-sizing:border-box;
+    margin-top: 15px;
+    overflow:auto;
+}
+.content-footer p {
+    font-size: 15px;
+    text-align: center;
+    background: gray;
+    height: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    border-bottom: outset;
+    margin: 0px;
+    height:50px;
+}
+h3    { 
+    background-color: gray; 
+    height: 50px;
+    line-height: 50px;
+    text-align: auto;
+
+}.card {
+    width: 33%;
+    float: left;
+    box-sizing:border-box;
+    padding: 12px;
+
+}
+.card img {
+    display: block;
+    width: 100%;
+}
+.card h3 { 
+text-align:center;
+padding:2px;
+margin-top: 0;
+}

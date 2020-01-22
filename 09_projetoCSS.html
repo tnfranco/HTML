@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+             <title> Projeto CSS </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tiago">
+        <meta name="description" content=" lista de documentos ">
+        <meta name="keywords" content="html5, python, java">
+        
+    <link rel="stylesheet" href="Projetos/CSS/estilo.css">
+
+    </head>
+    
+    <style>
+body { 
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0px;
+}
+.hero{
+    background-image:url(Projetos/imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero nav ul{ 
+    text-align: right;
+    margin: 50px 50px 0 0;
+}
+.hero nav li  {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+.hero nav a {
+    background: rgba(0,0,0,0.4);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+            
+.hero-content p { 
+    background: rgba(0,0,0,0.4);
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+   
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 2px red #333;
+}
+main{ 
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.content-footer p {
+    font-size: 15px;
+    text-align: center;
+    background: gray;
+    height: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    border-bottom: outset;
+    margin: 0px;
+    height:50px;
+}
+h3    { 
+    background-color: gray; 
+    height: 50px;
+    line-height: 50px;
+    text-align: auto;
+
+}.card {
+    display: inline-block;
+}
+    </style>
+    <body>
+        <div id="principal">
+        <header class="hero">
+            <nav>
+            <ul> 
+                <li><a href="09.projetoCSS.html">inicio</a></li> 
+                <li><a href="">Projetos</a></li> 
+                <li><a href="">Quem sou</a></li> 
+            </ul>
+            </nav>
+        <div class="hero-content">
+            <h1>Curso Web Fundamentos</h1>
+            <p>Aprendendo, HTML,CSS e JavaScript</p>
+        </div>
+        </header>
+            <main>
+            
+            
+            <section class="content-section">
+                <div class="card"> 
+                    <img src="Projetos/imagens/card_01.png" alt="Seletores">
+                    <h3>Seletores </h3>    
+        </div>
+                <div class="card"> 
+                    <img src="Projetos/imagens/card_02.jpg"  alt="Posicionamento">
+                    <h3>Posicionamento</h3>
+                          
+        </div>
+                <div class="card"> 
+                    <img src=Projetos/imagens/card_03.jpg alt="Fontes e Icones">
+                     <h3>Fontes e Icones</h3>
+                             
+        </div>
+                </section> 
+                
+                <section class="content-section">
+                      <article> 
+                   <header><h2>Sites</h2></header>
+                          <p> Acesse aqui as noticias do mundo </p><a href="http://www.uol.com.br"><b> UOL </b></a> <br><br>
+                          <p> Clique no melhor time do mundo</p> <a href="http://www.Corinthians.com.br"><b> SCCP </b></a>
+                      </article>
+                
+                </section>
+                
+              </main>
+            
+            <footer class="content-footer"> 
+                <p> <b>Copyright &copy; 2020</b></p>
+            </footer>
+            
+                  
+        </div>
+            
+                
+        
+    </body>
+</html>
