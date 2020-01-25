@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+    <head>
+             <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tiago">
+        <meta name="description" content=" lista de documentos ">
+        <meta name="keywords" content="html5, python, java">
+        
+        <style>
+            
+            body { 
+            text-align:center;  
+            }
+            
+            .formLogin {
+                width: 250px;
+                margin: 50px auto 0;
+                background: grey;
+                
+            }
+            #user, #pass, .btn {
+                display: block;
+                text-align: center;
+                box-sizing: border-box;
+                width: 100%;
+                background: white;
+                
+            }
+             #user #pass { 
+                font-size: 12px;
+                font-family: sans-serif;
+            }
+            
+            </style>
+        
+        
+    </head>
+    <body>
+        <h1> Exemplo de Login e Senha</h1>
+        
+        <form action="a"method="POST" class=formLogin>
+           <fieldset>
+            
+               <legend> <b> Login </b> </legend>
+            
+               <label for="used"> Digite o seu usuario</label>
+               <input type="text" id="user" name="user" autofocus>
+               
+               <label for="used"> Digite a sua senha</label>
+               <input type="password" id="user" name="pass">
+               
+               <input type="submit" value="entrar" clas=btn>
+               
+            
+            </fieldset>
+        </form>
+    </body>
+</html>
