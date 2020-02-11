@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+    <head>
+             <title> pagina de exemplto estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tiago">
+        <meta name="description" content=" lista de documentos ">
+        <meta name="keywords" content="html5, python, java">
+        <style>
+        
+            div{
+                width: 100px;
+                height: 100px;
+                transition-property: width, height;
+                transition-duration: 1s, 3s;
+                transition-timing-function: cubic-bezier(.67,-0.38,.5,1.5), linear;
+                transition-delay: 0s, .3s;
+                
+            } 
+            .card {
+             background-image: url(imagens/corinthians.jpg);
+             
+            }
+            div:hover{
+                width: 400px;
+                height: 400px;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1> Animação </h1>
+      <div class="card">
+                    <img src="Projetos/imagens/corinthians.jpg" alt="Corinthians">
+        </div>
+    </body>
+</html>
