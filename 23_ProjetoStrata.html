@@ -18,23 +18,71 @@
     <style> 
         
         body {
-    font-family: 'Open Sans', arial, calibri, sans-serif;
-    color: #666;
+            font-family: 'Open Sans', arial, calibri, sans-serif;
+            color: #666;
+            line-height: 1.7;
+    }
+        a {
+            transition: color .2s linear;
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            
+        }
+        .main-header { 
+            position: fixed;
+            top 0;
+            left: 0;
+            height: 100%;
+            width: 35%;
+            box-sizing: border-box;
+            padding: 124px 54px 72px 54px;
+            background-image: url(images/overlay.png), url(images/bg.jpg);
+            background-position: left top;
+            background-size: auto, cover;
+            text-align: right;
+        } 
+        
+        .main-header-title{
+            font-size: 23px;
+            line-height: 1.5;
+            color: white;
+            font-weight: normal;
+            color:rgba(255, 255, 255, 5);
+        }
+        
+        .main-header-title strong {
+            color: white;
+            font-weight: normal;
         
         }
-        </style>
+        .main-header-link {
+            color: inherit;
+        }
+        .main-content { 
+            width: 65%;
+            margin-left: 35%;
+            padding: 124px 54px 72px 54px;
+            box-sizing: border-box;
+        }
+    
+    
+    
+    
+    
+    
+    </style>
     
     
     <body>
         <header class="main-header">
             <a href="index.html" class="main-header-link">
-                 <img serc="a" alt="texto qualqer">
+                 <img src="images/avatar.jpg" alt="texto qualqer">
             </a>
-            <h1> 
+            <h1 class="main-header-title">
             Trabalhos e groselhas de <br>
             <strong> Tiago Nogueira Franco </strong> ,<br>
             um zé ninguem qualquer<br>
-            Retirado de <a href="http://htmlsup.net">htmlsup.net</a>
+            Retirado de <a href="http://htmlsup.net" class="main-header-link"> htmlsup.net</a>
             </h1>
         </header>
         
