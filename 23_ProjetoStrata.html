@@ -76,11 +76,47 @@
         border-radius: .35em;
         border: 2px solid #efefef; 
         font-family: "courir new", monospace;
+        font-size: .9em;
         color: #929292;
         }
         
         pre code{
             display: block;
+        }
+        
+        ul, ol{ 
+        margin: 0;
+        padding: 0;
+        padding-left: 1.1em; 
+        }
+        
+        li{ 
+        padding-left: .5em;
+        }
+        
+        .ul-alternate{
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .ul-alternate li {
+            border-bottom: 2px solid #d8d8d8;
+            padding-left: 0;
+        }
+        
+        .ul-alternate li:last-child{
+            border: 0;
+        }
+        
+        .ul-icons {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .ul-icons li {
+            display: inline-block;
+            font-size: 2em;
+            color: #49bf9d;
         }
         .main-header { 
             position: fixed;
@@ -118,6 +154,16 @@
             padding: 124px 54px 72px 54px;
             box-sizing: border-box;
         }
+        
+        .row {
+            overflow: auto;
+            
+        }
+        
+        .col-2{
+            width: 50%;
+            float: left;
+        }
     
      </style>
     
@@ -131,7 +177,7 @@
             Trabalhos e groselhas de <br>
             <strong> Tiago Nogueira Franco </strong> ,<br>
             um zé ninguem qualquer<br>
-            Retirado de <a href="http://htmlsup.net" class="main-header-link"> htmlsup.net</a>
+            Retirado de <a href="http://htmlsup.net" class="main-header-link"> html5up.net</a>
             </h1>
         </header>
         
@@ -274,34 +320,45 @@
                 
                 <h4>Listas</h4>
                 
+            <div class="row"> 
+                    <div class="col-2"> 
                 <h5>Não ordenada</h5>
                 <ul>
                     <li>item 1</li>
                     <li>item 2</li>
-                    <li>item 3</li>
+                    <li>item 3</li> <br>
                 </ul>
                 
                 <h5>Ordenada</h5>
-                <ul>
+                <ol>
                     <li>item 1</li>
                     <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-                
+                    <li>item 3</li> <br>
+                </ol>
+                    </div>
+                    
+            <div class="cold-2"> 
                 <h5>Alternate</h5>
                 <ul class="ul-alternate">
                     <li>item 1</li>
                     <li>item 2</li>
-                    <li>item 3</li>
-                </ul> 
+                    <li>item 3</li> <br>
+                </ul> <br>
                 
-                <h5>icons</h5>
-                <ul>
+                <h5>Icons</h5>
+                <ul class="ul-icons">
                     <li><i class="fab fa-twitter"></i></li>
                     <li><i class="fab fa-facebook-square"></i></li>
                 </ul>
+                <br>
+                </div>
+                </div>
+               
+                
+                
                 
                 <h5>Actions</h5>
+                
                 
                 <p>
                     <a href="#" class="button-default">Default</a>
