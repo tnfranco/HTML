@@ -23,11 +23,11 @@
             color: #666;
             line-height: 1.7;
     }
-        a {
+        a img {
             transition: color .2s linear, border .2s linear;
             text-decoration: none;
             border-bottom: 1px dotted;
-            
+            border-radius: 100px;
         }
         a:hover {
             border-bottom-color: transparent;
@@ -203,9 +203,13 @@
             
         }
         
-        .table .ph{
+        .table .th{
             background: #ccc;
             padding: .75em;
+        }
+        
+        .table tbody tr td {
+            border-bottom: 1px solid #ccc;
         }
         
         .table tbody tr:first-child td {
@@ -215,6 +219,14 @@
         
         .table tbody tr:last-child td {
             border-top: 2px solid #666;
+        }
+        
+        .table tbody tr:nth-child(even) td {
+            background: #eee;
+        }
+        
+        .table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td {
+            border: 1px solid #ddd;
         }
         
      </style>
