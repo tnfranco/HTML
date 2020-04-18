@@ -1,0 +1,17 @@
+body {
+    font-family: 16px sans-serif;
+}
+
+.main-header {
+    border: 1px solid black;
+    padding: 1em;
+    width: 320px;
+    width: 20em;
+    margin: 100px auto;
+    margin: 6.25em auto;
+}
+
+.main-header-list { 
+    background-image: url(imagess/bg_topo_1600x1374.jpg);
+    text-align: center;
+}
