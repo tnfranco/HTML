@@ -1,0 +1,57 @@
+'body {
+
+
+}
+
+#imagem-esquerda {
+    background-image:url("../imagens/CI&TPodcastCarrossel.png");
+    height: 650px;
+    width: 90px; ]
+    background: no-repeat center;
+    background-size: cover;  
+    max-width: 100%;
+    
+}
+
+#topo-direito {
+    padding: 10px;
+    margin-top:20px;
+}
+
+.topo {
+    margin-left: 25px;
+}
+
+.logotipo {
+    background: no-repeat center;
+    background-size: cover;  
+    margin: 30px;
+    margin-left: 120px;
+}
+.topo-parte-direita{
+    margin: 130px 90px 0px 90px;
+}
+
+.titulo-vermelho{
+    color: red;
+    padding: 10px 10px 10px 0px; 
+    font-weight: bold;
+}
+
+.texto-parte-direita {
+    line-height: 1.7;
+}
+
+.ouca {
+    color: deepskyblue;
+    font-weight: bold;
+    display: flex;
+    margin-top: 20px;
+    font-size:12px;
+    border: 2px solid;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
