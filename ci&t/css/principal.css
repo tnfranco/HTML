@@ -1,4 +1,5 @@
 
+ 
 #imagem-esquerda {
     background-image:url("../imagens/CI&TPodcastCarrossel.png");
     height: 650px;
@@ -92,8 +93,52 @@
     text-align: left;
     color: gray;
     display: flex;
-    font-size: 25px;
+    font-size: 23px;
+    padding: 140px 140px 0px 140px;
 }
+
+.autor {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    padding: 50px 140px 0 140px;
+    display: block;
+}
+
+.autor-cargo {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    display: block;
+}
+
+.entre-contato {
+    color: deepskyblue;
+    font-weight: bold;
+    display: flex;
+    margin: 100px auto 0 auto;
+    font-size:20px;
+    border: 2px solid;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cases-titulo {
+    color:red;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 150px 100px 0px 0px;
+    display: block;
+    text-align: right;
+
+
+}
+
+
 
 
 
